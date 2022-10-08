@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="profile">
+            <img id="foto" src="img/avatar.jpg" alt="fotodoprofile">            
+        </div>
+
+        <div class="nomes">
+            <div id="nome">
+                <h3>João Luiz Costa</h3>
+            </div>
+            <div id="social">
+                <p>@jluizcosta</p>
+            </div>
+
+            <p id="vermais" onclick="mostrarmais()">VER MAIS</p>
+
+            <div id="vermais1" style="display: none;">
+            
+               ❤️ Sou apaixonado por resolver problemas usando a programação. <br>
+
+                🎓 Bacharel em Sistemas de Informações.<br>
+                
+                💻 Sou um desenvolvedor Full Stack.<br>
+                
+                🚀 Buscando colaborar com projetos Front-End com JS e Back-End com Java.<br>
+                
+                👩‍💻 Minha Experiência: Java, Java Web, JavaScript, HTML5, CSS3, React.js, Angular.js, Node.js, Angular.JS, MySQL e Servidores de Aplicações.<br>
+
+            <p id="fechar" onclick="fecharmostramais()">FECHAR</p>
+
+            </div>
+
+        </div>
+
+        <div class="botoes">
+            <div id="seguir" onclick="abririnsta()"> Seguir</div>
+            <img id="enviar"src="img/whatsapp.png" alt="botaodo whatsapp" onclick="abrirwpp()">
+            <img id="email" src="img/email.png" alt="botaodeemail" onclick="abriremail()">
+        </div>
+
+        <hr id="quebra">
+
+        <div class="links">
+            <a href="https://github.com/jluizcosta">
+            <img id="github" src="img/github.png" alt="botaogithub"></a>
+            <a href="https://www.linkedin.com/in/jluizccosta/">
+            <img id="linkedin" src="img/linkedin.png" alt="botaolinkedin"></a> 
+            <a>
+            <img id="local" src="img/local.png" alt="botaolocal" onclick="mostrarlocal()"></a>
+        </div>
+
+        <div id="local1" style="display: none;">Sou de Brasília-DF</div>
+    </main>
+
+
+    <a href="https://github.com/jluizcosta">
+        <p>FEITO POR JOÃO LUIZ COSTA</p></a>
+        </div>
+        
+            <script src="js.js">
+            
+            
+            </script>
+</body>
+</html>

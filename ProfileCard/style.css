@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ubuntu-regular';
+    src: url('font/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    
+}
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('font/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: 'ubuntu-light';
+    src: url('font/Ubuntu-Light.ttf') format('truetype');
+    font-weight: normal;
+    
+}
+
+*{
+    margin: auto;
+    padding: 10px;
+}
+
+body{
+    background-color: white;    
+    text-align: center;
+}
+
+main{
+    margin-top: 50px;
+    background-color: #1b1b1b;
+    width: 500px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.profile{
+    margin-top: 50px;
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+    background: #fbc80f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.nomes{
+    text-align: center;
+    display: column;
+    margin-top: 40px;
+}
+
+#nome{
+    font-size: 20pt;
+    color: white;
+    font-family: 'ubuntu-bold';
+}
+
+#social{
+    margin-top: -35px;
+    font-size: 20pt;
+    color: rgb(195, 195, 195);
+    font-family: 'ubuntu-light';
+}
+
+#vermais{
+    color: white;
+    font-family: "ubuntu-light";
+    cursor: pointer;
+}
+
+#vermais1{
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    color: black;
+    font-family: "ubuntu-regular";
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#fechar{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.botoes{
+    font-size: 20pt;
+    color: white;
+    font-family: 'ubuntu-regular';
+
+    display: flex;
+    text-align: center
+}
+
+#seguir{
+    border-radius: 5%;
+    background-color: rgb(21, 21, 255);
+    width: 130px;
+    font-family: "ubuntu-bold";
+}
+
+#seguir:hover{
+    background-color: rgb(24, 24, 209);
+    cursor: pointer;
+}
+
+#enviar, #email{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #c1c1c1;
+    opacity: 70%;
+}
+
+#enviar, #email{
+    margin-left: -50px;
+}
+
+#enviar:hover{
+    opacity: 100%;
+    cursor: pointer;
+} 
+
+#email:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#quebra{
+    margin-top: 50px;
+    width: 350px;
+    border: 0;
+    border-top: 3px solid #fbc80f;
+}
+
+.links{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+#github, #linkedin, #local{
+    margin-top: 50px;
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#github:hover{
+    opacity: 100%;
+}
+
+#linkedin:hover{
+    opacity: 100%;
+}
+
+#local:hover{
+    opacity: 100%;
+}
+
+
+#local1{
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    height: 20px;
+    color: black;
+    font-family: "ubuntu-regular";
+    margin-bottom: 30px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.414);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(147, 147, 147);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 157, 157);
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+.autor{
+    color: rgba(128, 128, 128, 0.414);
+    margin-top: 20%;
+    bottom:100px;
+}
+
